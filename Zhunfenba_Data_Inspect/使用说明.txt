@@ -1,0 +1,5 @@
+在使用代码之前需要对代码中的数据库进行修改，脚本zhunfenba_data.py中使
+用的数据库是我本地测试数据库，数据库的修改在settings文件中进行操作。
+还需要对up_downline_msg.py以及update_msg.py文件中的"mentioned_list"
+和self.webhook_url进行修改，修改成线上用的企业微信机器人地址和需要@的
+联系人。

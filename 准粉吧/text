@@ -1,0 +1,49 @@
+data:
+{
+    "status":1,
+    "errorCode":"0000",
+    "result":{
+        "data":[
+            {
+                "qrPicUrl":"https://guanyu-image.oss-cn-hangzhou.aliyuncs.com/creativity/20201111/16050841819338644.jpg",
+                "nickName":"招商银行",
+                "creativityType":1,
+                "verifyType":5,
+                "adCodeNo":"2bdb6815f448f0b6",
+                "wxId":"wx5426eabc7df04b85",
+                "ghId":"gh_98a49c9dbbc0",
+                "adId":4252,
+                "bizType":3,
+                "sendType":1,
+                "thirdAppId":"wxkkkkkk"
+            }
+        ]
+    },"success":true}
+
+
+config:
+{
+    "width": 150,
+    "height": 150,
+    "authorizer_appid": "wxacd412cb2ff41290",
+    "authorizer_nickname": "闲时副业汇",
+    "authorizer_username": "gh_0b27a892c203",
+    "authorizer_principal": "准粉吧",
+    "authorizer_qrcode_str": "",
+    "authorizer_qrcode_link": "",
+    "authorizer_qrcode_ticket": "",
+    "authorizer_qrcode_img_url": "http://res.tiancan.online/2c7f6a424a63ce19eba4f8155c57f7d2.png"
+}
+
+{
+    "width": 150,
+    "height": 150,
+    "authorizer_appid": "wx6a95e4f94bcdf351",
+    "authorizer_nickname": "华夏基金",
+    "authorizer_username": "gh_3fccf62186ce",
+    "authorizer_principal": "准粉吧",
+    "authorizer_qrcode_str": "",
+    "authorizer_qrcode_link": "http://weixin.qq.com/q/017Wx3tacJ89f100000072",
+    "authorizer_qrcode_ticket": "",
+    "authorizer_qrcode_img_url": "http://res.tiancan.online298d3304e798eda161902acee7bc7b76.png"
+}

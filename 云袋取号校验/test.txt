@@ -1,0 +1,80 @@
+{"errcode":0,"data":[{"appid":"wx619991cc795028f5","gh_id":"cmb4008205555","qrcode_url":"https:\/\/client.yunfenba.com\/public\/upload\/2020-10-31\/1604129862.png","nick_name":"\u62db\u5546\u94f6\u884c\u4fe1\u7528\u5361","priority":"100"},{"appid":"wxea8c2a184f6288c4","gh_id":"gh_861efbb3bf6e","qrcode_url":"https:\/\/client.yunfenba.com\/public\/upload\/2020-11-02\/1604287425.jpg","nick_name":"\u5e73\u5b89\u597d\u8d37","priority":"80"},{"appid":"wxf9fd7854d4a88909","gh_id":"gh_07cd6b1c80ad","qrcode_url":"http:\/\/open.weixin.qq.com\/qr\/code?username=gh_07cd6b1c80ad","nick_name":"\u601d\u60f3\u8005\u672d\u8bb0","priority":"60"}]}
+
+
+{'errcode': 0,
+ 'data': [{
+            'appid': 'wx619991cc795028f5',
+            'gh_id': 'cmb4008205555',
+            'qrcode_url': 'https://client.yunfenba.com/public/upload/2020-10-31/1604129862.png',
+            'nick_name': '招商银行信用卡',
+            'priority': '100'},
+
+          {
+            'appid': 'wxea8c2a184f6288c4',
+            'gh_id': 'gh_861efbb3bf6e',
+            'qrcode_url': 'https://client.yunfenba.com/public/upload/2020-11-02/1604287425.jpg',
+            'nick_name': '平安好贷',
+            'priority': '80'},
+
+          {
+            'appid': 'wxf9fd7854d4a88909',
+            'gh_id': 'gh_07cd6b1c80ad',
+            'qrcode_url': 'http://open.weixin.qq.com/qr/code?username=gh_07cd6b1c80ad',
+            'nick_name': '思想者札记',
+            'priority': '60'}
+            ]}
+
+
+
+{'errcode': 0,
+ 'data':
+    [
+        {
+         'appid': 'wx619991cc795028f5',
+         'gh_id': 'cmb4008205555',
+         'qrcode_url': 'https://client.yunfenba.com/public/upload/2020-10-31/1604129862.png',
+         'nick_name': '招商银行信用卡',
+         'priority': '100'
+         },
+
+         {
+          'appid': 'wx5267e64ccd6bb42c',
+          'gh_id': 'gh_a3ea2157fc56',
+          'qrcode_url': 'https://client.yunfenba.com/public/upload/2020-11-06/wx5267e64ccd6bb42c35dc15bfb7fc6759af1f5d24969a0c8d.png?t=1604652232',
+          'nick_name': '灵机生活馆',
+          'priority': '85'
+          },
+          {
+           'appid': 'wxea8c2a184f6288c4',
+           'gh_id': 'gh_861efbb3bf6e',
+           'qrcode_url': 'https://client.yunfenba.com/public/upload/2020-11-02/1604287425.jpg',
+           'nick_name': '平安好贷',
+           'priority': '80'
+           }
+    ]
+}
+
+定期从链接中拿到号源信息，拿到号源信息后，将当次获取的号源信息通过appid与数据库中pid=2的信息进行比对，如果
+数据库中的appid在号源信息的appid中，那么需要先判断state信息是否为1，不是1的话改成1，再比对微信链接是否改
+变，改变了就将新的微信链接插入。
+
+'256', '2', '招商银行信用卡', 'IMAGE_QRCODE_WECHAT', '1', '{\"width\": 150, \"height\": 150, \"authorizer_appid\": \"wx619991cc795028f5\", \"authorizer_nickname\": \"招商银行信用卡\", \"authorizer_username\": \"cmb4008205555\", \"authorizer_principal\": \"云袋有限公司\", \"authomysql> rcode_str\": \"\", \"authorizer_qrcode_link\": \"www.baidu.com\", \"authorizer_qrcode_ticket\": \"\", \"authorizer_qrcode_img_url\": \"https://client.yunfenba.com/public/upload/2020-10-31/1604129862.png\"}', NULL, '1', 'sysadmin', 'sysadmin', '1', 'sysadmin', 'sysadmin', '2020-11-08 09:51:05', '2020-11-08 09:51:05', NULL, NULL
+
+{"width": 150, "height": 150, "authorizer_appid": "wx619991cc795028f5", "authorizer_nickname": "招商银行信用卡", "authorizer_username": "cmb4008205555", "authorizer_principal": "云袋有限公司", "authomysql> rcode_str": "", "authorizer_qrcode_link": "http://weixin.qq.com/q/02h729Rr8m7U-10000w03X", "authorizer_qrcode_ticket": "", "authorizer_qrcode_img_url": "https://client.yunfenba.com/public/upload/2020-10-31/1604129862.png"}
+
+
+{'errcode': 0, 'data': [{'appid': 'wxcb63504922c12503', 'gh_id': 'gh_f616cfa0fe7c', 'qrcode_url': 'https://client.yunfenba.com/public/upload/2020-11-09/1604914803.png', 'nick_name': '洽洽食品', 'priority': '100'}, {'appid': 'wx619991cc795028f5', 'gh_id': 'cmb4008205555', 'qrcode_url': 'https://client.yunfenba.com/public/upload/2020-11-14/1605330522.png', 'nick_name': '招商银行信用卡', 'priority': '95'}, {'appid': 'Z8TSWOtR2RJnkU239owVaYf6', 'gh_id': '招商银行', 'qrcode_url': 'https://client.yunfenba.com/public/upload/2020-11-12/1605153392.jpg', 'nick_name': '招商银行', 'priority': '90'}, {'appid': 'wxea8c2a184f6288c4', 'gh_id': 'gh_861efbb3bf6e', 'qrcode_url': 'https://client.yunfenba.com/public/upload/2020-11-13/1605273346.png', 'nick_name': '平安好贷', 'priority': '80'}]}
+
+['http://weixin.qq.com/q/02g1WwoqmVboe1Wmig1vc_', 'http://weixin.qq.com/q/02h729Rr8m7U-10000w03X', 'http://weixin.qq.com/q/02_SuAhNdS9Ze10000w07v', 'http://weixin.qq.com/q/02qOxgY6Kfcdl10000003o']
+
+
+CREATE TABLE `history_weifensi_subscribe`(
+            `id` int(11) NOT NULL AUTO_INCREMENT ,
+            `today_earnings` float,
+            `today_fans` int,
+            `month_fans` int,
+            `total_fans` int,
+            `time_stamp` datetime(0)
+        )ENGINE = InnoDB AUTO_INCREMENT = 217317 CHARACTER SET = utf8mb4 COLLATE = utf8mb4_0900_ai_ci ROW_FORMAT = Dynamic;
+
+

@@ -1,0 +1,15 @@
+如果数据库中表不存在，需要先建表，已存在则不需要
+需要先建一张表存储拿到的数据
+CREATE TABLE `yundai_data` (
+  `id` int NOT NULL AUTO_INCREMENT,
+  `nickName` varchar(45) DEFAULT NULL,
+  `wxId` varchar(45) DEFAULT NULL,
+  `total_fans` int DEFAULT NULL,
+  `created_time` datetime DEFAULT NULL,
+  `inserted_time` datetime DEFAULT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=utf8;
+
+然后分别定时运行get_data.py文件和企业微信发送测试.py文件，在settings文件中，
+conn是对新建表的数据库进行连接配置，conn1是对公司数据库进行配置。url等信息
+是对企业微信发送地址进行配置。
